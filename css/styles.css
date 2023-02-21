@@ -1,11 +1,9 @@
 .microscope{
-    float:right;
     position: relative;
     width: 525px;
     height: 525px;
-    background-color: #242527;
-    border-radius: 20px;
-    margin: 4px;
+    background-color: darkmagenta;
+    border-radius: 10px;
 }
 
 .base{
@@ -84,19 +82,4 @@ left: 168px;
     width: 52px;
     top: 422px;
     left: 197px;
-}
-
-.arm:hover,.base:hover,.base-stand:hover,.body-tube:hover,.coarse-adjustment-knob:hover,.condenser:hover,.eye-piece:hover,.fine-adjustment-knob:hover,.inclination-joint:hover,.mirror:hover,.revolving-nose-piece:hover,.stage-and-clips:hover {
-    cursor: pointer;
-    filter: drop-shadow(0px 0px 5px yellowgreen);
-    transform: scale(1.1);
-  }
-
-
-.microscope p{
-    color: #3498db;
-    margin: 4px;
-    padding: 4px;
-    background-color: #5421bb80;
-    border-radius: 20px;
 }

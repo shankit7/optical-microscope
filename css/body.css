@@ -48,8 +48,33 @@ ul li{
 font-family: 'Ubuntu', sans-serif;
 }
 
-@keyframes aside{
-    60% {
-        width: 100%;
-    }
-}
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #3498db;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  a.next {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
+
+  .nextdiv{
+        position: absolute;
+        left: 50vw;
+        bottom: 4px;
+  }
