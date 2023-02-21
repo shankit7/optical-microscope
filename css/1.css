@@ -98,18 +98,24 @@
   a.previous {
     background-color: #04AA6D;
     color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 8px;
   }
   
   a.next {
     background-color: #04AA6D;
     color: white;
+    position: absolute;
+    bottom: 20px;
+    right: 8px;
   }
   
   .round {
     border-radius: 50%;
   }
 
-  .nextprev{
+  /* .nextprev{
     position: absolute;;
     bottom: 4px;
-  }
+  } */

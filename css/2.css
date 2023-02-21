@@ -150,6 +150,9 @@ a:hover {
 a.previous {
   background-color: #04AA6D;
   color: white;
+  position: absolute;
+  bottom: 20px;
+  left: 8px;
 }
 
 a.next {
@@ -162,7 +165,5 @@ a.next {
 }
 
 .prevdiv{
-  position: absolute;
-  bottom: 4px;
-  left: 50vw;
+  
 }
