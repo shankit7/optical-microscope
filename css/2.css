@@ -9,8 +9,8 @@
     position: absolute;
   /* left: 6px;
   top: 159px; */
-  left: 43rem;
-  top: 6rem;
+  left: 47rem;
+  top: 7rem;
   z-index: -1;
   justify-content: center;
 }
@@ -87,9 +87,16 @@ body {
 .matching-pairs {
   transition: opacity 0.5s;
 }
-.matching-pair {
+/* .matching-pair {
   height: 6rem;
   width: 22rem;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-between;
+} */
+.matching-pair {
+  height: 6rem;
+  width: 27rem;
   margin: 1rem auto;
   display: flex;
   justify-content: space-between;
