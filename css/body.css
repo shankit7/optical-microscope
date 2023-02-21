@@ -23,7 +23,7 @@ font-family: 'Ubuntu', sans-serif;
 .intro{
     background-color: #212527;
     width: 500px;
-    float: left;
+    float: right;
     color: rgb(247, 249, 249);
     padding: 8px;
 
@@ -54,22 +54,18 @@ a {
     padding: 8px 16px;
   }
   
-  a:hover {
-    background-color: #3498db;
-    color: black;
-  }
-  
   .previous {
-    background-color: #04AA6D;
+    background-color: #5421bb80;
     color: white;
   }
   
   a.next {
-    background-color: #04AA6D;
+    background-color: #5421bb80;
     color: white;
     position: absolute;
     right: 4px;
     bottom: 20px;
+    border-radius: 4px;
   }
   
   .round {

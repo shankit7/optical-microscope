@@ -1,9 +1,9 @@
 .microscope{
-    float:right;
+    float:left;
     position: relative;
     width: 525px;
     height: 525px;
-    background-color: #242527;
+    background-color: #4c4e53;
     border-radius: 20px;
     margin: 4px;
 }
@@ -93,10 +93,3 @@ left: 168px;
   }
 
 
-.microscope p{
-    color: #3498db;
-    margin: 4px;
-    padding: 4px;
-    background-color: #5421bb80;
-    border-radius: 20px;
-}

@@ -96,19 +96,22 @@
   }
   
   a.previous {
-    background-color: #04AA6D;
+    background-color: #5421bb80;
     color: white;
     position: absolute;
     bottom: 20px;
     left: 8px;
+    border-radius: 4px;
   }
   
   a.next {
-    background-color: #04AA6D;
+    background-color: #5421bb80;
     color: white;
     position: absolute;
     bottom: 20px;
     right: 8px;
+    border-radius: 4px;
+    
   }
   
   .round {

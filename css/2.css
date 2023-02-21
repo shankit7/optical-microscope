@@ -148,11 +148,13 @@ a:hover {
 }
 
 a.previous {
-  background-color: #04AA6D;
+  background-color: #3a2371;
   color: white;
   position: absolute;
   bottom: 20px;
   left: 8px;
+  border-radius: 4px;
+
 }
 
 a.next {
@@ -162,8 +164,4 @@ a.next {
 
 .round {
   border-radius: 50%;
-}
-
-.prevdiv{
-  
 }
